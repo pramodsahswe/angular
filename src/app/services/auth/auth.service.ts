@@ -9,7 +9,7 @@ export class AuthService implements CanActivate {
 	canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
 		let url: string = state.url;
 
-		if (localStorage.getItem('userData')) {
+		if (localStorage.getItem('userData')) { 
 			return true;
 		}else {
 			this.router.navigate(['/login']);

@@ -1,12 +1,9 @@
-/**
- * Created By : Sangwin Gawande (http://sangw.in)
- */
 
 import { Injectable } from '@angular/core';
 // import { HttpClient } from '@angular/common/http';
 
 @Injectable()
-export class UserService { 
+export class UserService {
 
 	constructor() { }
 

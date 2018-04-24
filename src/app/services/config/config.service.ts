@@ -6,7 +6,7 @@ import {trigger, state, animate, style, transition} from '@angular/core';
 export class ConfigService {
 	apiURL:string;
 	constructor() {
-		this.apiURL = "http://localhost/saNG4-Demo-App/api/";
+		this.apiURL = "http://127.0.0.1:8000/";
 	}
 
 }
@@ -38,7 +38,7 @@ export class ValidationService {
 				return { 'range': true };
 			}
 			return null;
-		}; 
+		};
 	}
 }
 
